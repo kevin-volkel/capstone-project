@@ -5,6 +5,7 @@ import {Button, Navbar, Nav, Form, FormControl} from 'react-bootstrap'
 // import FormControl from 'react-bootstrap/FormControl'
 import Logo from './assests/logo.png'
 import { GrSearch } from "react-icons/gr";
+import Ad from './components/Ad'
 
 const App = () => {
 return <> 
