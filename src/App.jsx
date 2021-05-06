@@ -1,11 +1,9 @@
-import Button from 'react-bootstrap/Button'
-
-
+import Ad from './components/Ad'
 
 const App = () => {
-return <> 
-    <Button>ji</Button>
-</>
+    return <> 
+        <Ad/>
+    </>
 }
 
 export default App
