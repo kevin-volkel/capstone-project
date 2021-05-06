@@ -19,10 +19,14 @@ return <>
     </Nav> */}
 
     <Form  className = 'search_Bar'>
-      <FormControl type="text"className="searchBar" />
+    
     <div className="glass">
-    <GrSearch/>
+
+      <input className = 'search' type="text" className="searchBar"/>
+
+    <GrSearch className = 'search-icon'/>
     </div>
+    
     </Form>
 
     <div className="">ICON</div>
