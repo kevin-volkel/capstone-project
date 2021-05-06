@@ -38,4 +38,20 @@ form .glass {
   right: 5px;
   cursor: pointer;
 }
+
+#ad {
+  line-height: 1.75rem;
+}
+
+#basic-navbar-nav button {
+  background: transparent;
+  border: solid 2px rgba(255, 140, 0, 0);
+  color: black;
+  border-radius: 0;
+  padding: 0;
+}
+
+#basic-navbar-nav button:hover {
+  border-bottom: solid 2px black;
+}
 /*# sourceMappingURL=style.css.map */

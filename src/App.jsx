@@ -6,8 +6,12 @@ import {Button, Navbar, Nav, Form, FormControl} from 'react-bootstrap'
 import Logo from './assests/logo.png'
 import { GrSearch } from "react-icons/gr";
 import Ad from './components/Ad'
+import BottomNav from './components/BottomNav'
+
 
 const App = () => {
+
+
 return <> 
       {/* <Button variant="primary" style = {{margin:'50px', width:'120px',height:'50px'}}>Primary</Button>{' '} */}
     <Navbar className = 'd-flex flex-row justify-content-around'  variant='dark' style = {{backgroundColor:'#FAB011'}}>
@@ -22,12 +26,16 @@ return <>
     <Form  className = 'search_Bar'>
       <FormControl type="text"className="searchBar" />
     <div className="glass">
-    <GrSearch/>
+        <GrSearch/>
     </div>
+
+
+
     </Form>
 
     <div className="">ICON</div>
     </Navbar>
+    <BottomNav/>
 
 </>
 }
