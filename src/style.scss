@@ -74,8 +74,9 @@ body {
   background: linear-gradient(
     to bottom,
     rgb(255, 171, 116),
-    rgb(255, 177, 158)
+    rgb(255, 177, 158),
   );
+
 }
 .weather-card {
   margin-top: 40px;
@@ -118,7 +119,7 @@ body {
     .slider-card{
         cursor: pointer;
         .card{
-            width: 16vw;
+            width: 13vw;
             height: 20vh;
             box-shadow: black 10 10;
             background-color: $fg-color;
@@ -131,10 +132,11 @@ body {
                 .card-text{
                     display: flex;
                     justify-content: space-between;
-                    font-size: 3rem;
+                    font-size: 2.2rem;
                     font-weight: 700;
                     img{
-                        width: 35%;
+                        width: 40%;
+                        height: 40%;
                     }
                 }
             }
@@ -144,5 +146,13 @@ body {
             }
             transition: all 0.5s;
         }
+    }
+}
+
+.nav-item{
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s;
+    &:hover{
+        border-bottom: 2px solid rgb(255, 255, 255);
     }
 }

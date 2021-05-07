@@ -16,7 +16,7 @@ const NavBar = () => {
       <Navbar
         className="d-flex flex-row justify-content-around"
         variant="dark"
-        style={{ backgroundColor: "rgb(248, 142, 80)" }}
+        style={{ backgroundColor: "rgba(248, 142, 80, 0.9)"}}
       >
         <Navbar.Brand href="#">
           <img src={Logo} alt="" height="80px" />
@@ -36,7 +36,7 @@ const NavBar = () => {
         </div> */}
         <Nav style = {{width:'400px'}} d-flex className = 'justify-content-between'>
         {DataNames.map((obj, i) => (
-            <Nav.Link key={i} style={{ color: "white", fontWeight: "bold",fontSize:'17px'}}>
+            <Nav.Link key={i} className = 'nav-item' style={{ color: "white", fontWeight: "bold",fontSize:'17px'}}>
               {obj.name}
             </Nav.Link>
           ))}
