@@ -117,9 +117,13 @@ body {
                     color: black;
                 }
                 .card-text{
-                    text-align: right;
+                    display: flex;
+                    justify-content: space-between;
                     font-size: 3rem;
                     font-weight: 700;
+                    img{
+                        width: 35%;
+                    }
                 }
             }
             &:hover{

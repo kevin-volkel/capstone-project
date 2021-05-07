@@ -145,9 +145,18 @@ body {
 }
 
 .slider .slider-card .card .card-body .card-text {
-  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-size: 3rem;
   font-weight: 700;
+}
+
+.slider .slider-card .card .card-body .card-text img {
+  width: 35%;
 }
 
 .slider .slider-card .card:hover {

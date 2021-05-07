@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
-import logo from '../assests/logo.png'
+import sun from '../assests/sun.png'
 
 const Slider = ({ objects }) => {
 
@@ -11,7 +11,7 @@ const Slider = ({ objects }) => {
                 <Card className = 'lg-4'>
                     <Card.Body>
                         <Card.Title>{item}</Card.Title>
-                        <Card.Text> <img src={logo} alt="placeholder" /> 68°</Card.Text>
+                        <Card.Text> <img src={sun} alt="placeholder" /> 68°</Card.Text>
                     </Card.Body>
                 </Card>
             </div>
