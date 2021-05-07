@@ -10,7 +10,7 @@ import { GrSearch } from "react-icons/gr";
 // import Ad from "./components/Ad";
 import Faker from "faker";
  
-const NavBar = () => {
+const NavBar = ({ setActive }) => {
   return (
     <>
       <Navbar
@@ -36,7 +36,7 @@ const NavBar = () => {
         </div> */}
         <Nav style = {{width:'400px'}} d-flex className = 'justify-content-between'>
         {DataNames.map((obj, i) => (
-            <Nav.Link key={i} className = 'nav-item' style={{ color: "white", fontWeight: "bold",fontSize:'17px'}}>
+            <Nav.Link key={i} className = 'nav-item' style={{ color: "white", fontWeight: "bold",fontSize:'17px'}} onClick = {() => {setActive(obj.name)}}>
               {obj.name}
             </Nav.Link>
           ))}

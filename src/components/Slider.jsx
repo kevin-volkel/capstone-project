@@ -8,7 +8,7 @@ const Slider = ({ objects }) => {
         {objects.map( (item, i) =>(
             <div className="slider-card" key={i}>
             {console.log(`he`)}
-                <Card className = 'lg-4'>
+                <Card className = 'lg-4 sm-6 container-fluid'>
                     <Card.Body>
                         <Card.Title>{item}</Card.Title>
                         <Card.Text> <img src={sun} alt="placeholder" /> 68°</Card.Text>

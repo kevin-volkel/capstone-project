@@ -5,9 +5,9 @@ const Background = ({ active, data }) => {
   return (
     <>
       <div className="background">
-        {(active === "daily") && <><Daily/><Slider objects = {data}/></>}
-        {/* <Hourly/> */}
-        {/* <Weekly/> */}
+        {(active === "Daily") && <><Daily/><Slider objects = {data}/></>}
+        {/* {(active === "Hourly") && <><Hourly/><Slider objects = {data}/>} */}
+        {/* {(active === "Weekly") && <><Weekly/><Slider objects = {data}/>} */}
       </div>
     </>
   );

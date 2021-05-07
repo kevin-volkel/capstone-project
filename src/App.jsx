@@ -7,12 +7,12 @@ const App = () => {
 
   const times = ['morning', 'noon', 'evening', 'night']
 
-  const [active, setActive] = useState('daily')
+  const [active, setActive] = useState('Daily')
 
   return (
     <>
-      <NavBar />
-      <Background active = {active} data = {times} />
+      <NavBar setActive = {(val) => {setActive(val)}}/>
+      <Background active = {active} data = {times}/>
     </>
   );
 };
