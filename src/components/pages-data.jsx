@@ -9,5 +9,4 @@ const dataNames = [
       name: "Weekly",
     },
   ];
-   
   export default dataNames;
