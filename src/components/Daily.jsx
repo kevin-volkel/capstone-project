@@ -22,7 +22,7 @@ const Daily = ({ data }) => {
               <div
                 className="col-12"
                 style={{
-                  color: "grey",
+                  color: "black",
                   fontSize: "20px",
                   fontWeight: "bold",
                   paddingLeft: "30px",
@@ -34,9 +34,9 @@ const Daily = ({ data }) => {
             </div>
             <div className="row d-flex align-items-start">
               <div
-                className="col-12"
+                className="col-12 align-items-start"
                 style={{
-                  fontSize: "100px",
+                  fontSize: "70px",
                   fontWeight: "bold",
                   paddingLeft: "30px",
                   display: "inline",
@@ -49,7 +49,7 @@ const Daily = ({ data }) => {
               <div
                 className="col-6"
                 style={{
-                  fontSize: "35px",
+                  fontSize: "25px",
                   fontWeight: "bold",
                   paddingLeft: "30px",
                   display: "inline",

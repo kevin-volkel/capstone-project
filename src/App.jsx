@@ -12,7 +12,6 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <BottomNav />
       <Background active = {active} data = {times} />
     </>
   );

@@ -13,7 +13,7 @@ body {
 
 .glass {
   height: 40px;
-  background-color: #f8613b83;
+  background-color: #fdb084fa;
   border-radius: 30px;
   padding: 10px;
   position: relative;
@@ -29,7 +29,7 @@ body {
 }
 
 .glass input {
-  color: white;
+  color: black;
   font-size: 19px;
   border: 0;
   outline: 0;
@@ -84,17 +84,17 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100vw;
-  height: 85vh;
+  height: 90vh;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffab74), to(#ffb19e));
   background: linear-gradient(to bottom, #ffab74, #ffb19e);
 }
 
 .weather-card {
-  margin-top: 50px;
+  margin-top: 40px;
   border-radius: 10px;
-  width: 80%;
-  height: 300px;
-  background-color: rgba(240, 199, 179, 0.301);
+  width: 65%;
+  height: 250px;
+  background-color: rgba(248, 142, 80, 0.733);
   color: white;
   position: relative;
 }
@@ -105,6 +105,19 @@ body {
   right: 20px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.weather-card .deg {
+  position: absolute;
+  top: 50px;
+  left: -11px;
+}
+
+.weather-card .sun {
+  position: absolute;
+  top: 180px;
+  left: -5px;
+  color: #f88e50;
 }
 
 .slider {
