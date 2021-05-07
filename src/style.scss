@@ -6,6 +6,8 @@
   padding: 0;
 }
  
+$fg-color: rgba(238, 86, 59, 0.247);
+
 body {
   overflow: hidden;
 }
@@ -66,6 +68,7 @@ body {
  
 .background {
   display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 85vh;
   background: linear-gradient(
@@ -88,4 +91,42 @@ body {
     right: 20px;
     transform: translateY(-50%);
   }
+}
+
+//slider styles
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    gap: 1vw;
+    height: 10vh;
+    margin-top: 10px;
+    .slider-card{
+        cursor: pointer;
+        .card{
+            width: 16vw;
+            height: 20vh;
+            box-shadow: black 10 10;
+            background-color: $fg-color;
+            .card-body{
+                .card-title{
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: black;
+                }
+                .card-text{
+                    text-align: right;
+                    font-size: 3rem;
+                    font-weight: 700;
+                }
+            }
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.568) 3px 3px 10px;
+
+            }
+            transition: all 0.5s;
+        }
+    }
 }

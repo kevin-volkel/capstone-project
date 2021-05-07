@@ -1,8 +1,4 @@
-import { Button, Navbar, Nav, Form, FormControl } from "react-bootstrap";
-// import Navbar from 'react-bootstrap/Navbar'
-// import  Nav  from 'react-bootstrap/Nav'
-// import Form from 'react-bootstrap/Form'
-// import FormControl from 'react-bootstrap/FormControl'
+import {Navbar, Form } from "react-bootstrap";
 import Logo from "../assests/logo.png";
 import { GrSearch } from "react-icons/gr";
 // import Ad from "./components/Ad";

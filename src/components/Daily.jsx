@@ -1,5 +1,6 @@
- 
-const Daily = () => {
+import Slider from './Slider'
+
+const Daily = ({ data }) => {
   return (
     <>
       <div className="container d-flex justify-content-center">

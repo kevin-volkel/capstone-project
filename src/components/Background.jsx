@@ -1,10 +1,13 @@
 import Daily from "./Daily";
+import Slider from './Slider'
  
-const Background = () => {
+const Background = ({ active, data }) => {
   return (
     <>
       <div className="background">
-        <Daily />
+        {(active === "daily") && <><Daily/><Slider objects = {data}/></>}
+        {/* <Hourly/> */}
+        {/* <Weekly/> */}
       </div>
     </>
   );
