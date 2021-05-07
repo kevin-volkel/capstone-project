@@ -1,22 +1,19 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.Nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: #FAB011;
+body {
+  overflow: hidden;
 }
 
 .glass {
   height: 40px;
-  background-color: #58afbb;
+  background-color: #f8613b83;
   border-radius: 30px;
   padding: 10px;
   position: relative;
@@ -32,7 +29,8 @@
 }
 
 .glass input {
-  color: black;
+  color: white;
+  font-size: 19px;
   border: 0;
   outline: 0;
   background: none;
@@ -61,33 +59,47 @@
   text-decoration: none;
 }
 
-.glass {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  cursor: pointer;
-}
-
 #ad {
   line-height: 1.75rem;
 }
 
-#basic-navbar-nav button {
-  background: transparent;
-  border: solid 2px rgba(255, 140, 0, 0);
-  color: black;
-  border-radius: 0;
-  padding: 0;
-}
-
-#basic-navbar-nav button:hover {
-  border-bottom: solid 2px black;
-}
-
 .glass:hover input {
   padding: 0 10px;
-  width: 300px;
+  width: 250px;
   -webkit-transition: width 0.4s linear;
   transition: width 0.4s linear;
+}
+
+.icon img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 85vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffab74), to(#ffb19e));
+  background: linear-gradient(to bottom, #ffab74, #ffb19e);
+}
+
+.weather-card {
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 80%;
+  height: 300px;
+  background-color: rgba(240, 199, 179, 0.301);
+  color: white;
+  position: relative;
+}
+
+.weather-card img {
+  position: absolute;
+  top: 60%;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 /*# sourceMappingURL=style.css.map */
