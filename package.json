@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "capstone",
-=======
   "name": "project",
->>>>>>> 986e6517ece17065e76a972c3e255c4a29ef2df9
   "version": "0.1.0",
   "private": true,
   "dependencies": {
